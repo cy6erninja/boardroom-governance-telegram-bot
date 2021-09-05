@@ -1,0 +1,7 @@
+{
+  "menu.start.start": "Здравствуйте! Выберите протокол, пожалуйста!",
+  "menu.protocol-details.protocol-details": "О протоколе",
+  "menu.protocol-details.name": "Имя",
+  "pagination.right": "\uD83D\uDC49",
+  "pagination.left": "\uD83D\uDC48"
+}
