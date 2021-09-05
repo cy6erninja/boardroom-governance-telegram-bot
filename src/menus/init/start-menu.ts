@@ -19,8 +19,8 @@ export const initStartMenu = async (ctx: CurrentCtx) => {
             action: MenuActions.START,
             message: ctx.i18n.t('menu.start.start'),
             filters: START_MENU_KEYBOARD,
-            replaceable: false,
-            debug: true,
+            replaceable: true,
+            debug: false,
             menuGetter: (menuCtx) => menuCtx.session.keyboardMenu,
             menuSetter: (menuCtx, menu) => menuCtx.session.keyboardMenu = menu,
             async onChange(changeCtx, state) {

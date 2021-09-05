@@ -55,8 +55,8 @@ exports.initStartMenu = function (ctx) { return __awaiter(void 0, void 0, void 0
                         action: interfaces_1.MenuActions.START,
                         message: ctx.i18n.t('menu.start.start'),
                         filters: START_MENU_KEYBOARD,
-                        replaceable: false,
-                        debug: true,
+                        replaceable: true,
+                        debug: false,
                         menuGetter: function (menuCtx) { return menuCtx.session.keyboardMenu; },
                         menuSetter: function (menuCtx, menu) { return menuCtx.session.keyboardMenu = menu; },
                         onChange: function (changeCtx, state) {
