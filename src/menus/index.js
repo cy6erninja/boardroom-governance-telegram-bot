@@ -13,5 +13,5 @@ exports.__esModule = true;
 __exportStar(require("./init/start-menu"), exports);
 __exportStar(require("./init/protocol-details"), exports);
 __exportStar(require("./init/protocol-proposal-details"), exports);
-//export * from './init/protocol-voter-details';
+__exportStar(require("./init/protocol-voter-details"), exports);
 __exportStar(require("./init/protocol-voters"), exports);
