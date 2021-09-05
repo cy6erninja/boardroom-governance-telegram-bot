@@ -4,8 +4,7 @@
   "description": "Telegram bot exposing Boardroom governance functionality",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node src/index.js",
-    "test": " jest"
+    "start": "tsc && node src/index.js"
   },
   "repository": {
     "type": "git",

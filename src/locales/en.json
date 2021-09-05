@@ -1,4 +1,5 @@
 {
+  "welcome": "Welcome to Boardroom API bot!",
   "menu.back": "Back",
   "menu.start.start": "Hi! Please choose a protocol below!",
   "menu.protocol-details.protocol-details": "Protocol Details",

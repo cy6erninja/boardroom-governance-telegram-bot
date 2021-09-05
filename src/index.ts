@@ -35,7 +35,10 @@ bot.use((ctx: CurrentCtx, next) => {ctx.i18n.locale(ctx.from.language_code); ret
  * */
 bot.use(GenericMenu.middleware());
 
-bot.command(MenuActions.START, (ctx: CurrentCtx) => {ctx.reply("Welcome to Boardroom API bot!"); initStartMenu(ctx);});
+bot.command(MenuActions.START, async (ctx: CurrentCtx) => {
+    await ctx.reply(ctx.i18n.t('welcome'));
+    initStartMenu(ctx);
+});
 bot.action(new RegExp(MenuActions.START), GenericMenu.onAction(
     (ctx: CurrentCtx) => ctx.session.keyboardMenu,
     initStartMenu,

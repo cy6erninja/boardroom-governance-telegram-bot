@@ -11,7 +11,6 @@ export const initProtocolProposalDetailsMenu = async (ctx: CurrentCtx) => {
             action: MenuActions.PROPOSAL_DETAILS,
             message: getMessage(proposal),
             filters: [
-                [new KeyboardButton<string>(ctx.i18n.t('menu.protocol-details.proposal-votes'), 'proposal-votes')],
                 [new KeyboardButton<string>(ctx.i18n.t('menu.back'), MenuActions.BACK)],
             ],
             replaceable: true,
