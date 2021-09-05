@@ -1,0 +1,17 @@
+{
+  "welcome": "Welcome to Boardroom API bot!",
+  "menu.back": "Back",
+  "menu.start.start": "Hi! Please choose a protocol below!",
+  "menu.protocol-details.protocol-details": "Protocol Details",
+  "menu.protocol-details.name": "Name",
+  "menu.protocol-details.total-proposals": "Total Proposals",
+  "menu.protocol-details.total-voters": "Total Voters",
+  "menu.protocol-details.unique-voters": "Unique Voters",
+  "menu.protocol-details.protocol-proposals": "Protocol Proposals",
+  "menu.protocol-details.protocol-voters": "Protocol Voters",
+  "menu.protocol-details.proposal-votes": "Proposal Votes",
+  "menu.protocol-proposal.proposals": "Protocol Proposals",
+  "menu.protocol-voters.voters": "Protocol Voters",
+  "pagination.right": "\uD83D\uDC49",
+  "pagination.left": "\uD83D\uDC48"
+}
