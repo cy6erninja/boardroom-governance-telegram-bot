@@ -53,10 +53,8 @@ Results
 ----------------
 ${results}
 
-${proposal.title.substring(200)}
-----------------
+${proposal.title.substring(0, 200)}
 
-
-${proposal.content.substring(3500)}
+${proposal.content.substring(0, 3500)}
 `;
 }
